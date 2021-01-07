@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22200" started-at="2020-06-29T05:52:48Z" finished-at="2020-06-29T05:53:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22200" started-at="2020-06-29T05:52:48Z" finished-at="2020-06-29T05:53:10Z">
+      <class name="joinassembly.LoginPageValidation">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:joinassembly.LoginPageValidation@223191a6]" name="initializeDriver" is-config="true" duration-ms="4617" started-at="2020-06-29T05:52:44Z" finished-at="2020-06-29T05:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="init()[pri:0, instance:joinassembly.LoginPageValidation@223191a6]" name="init" is-config="true" duration-ms="3234" started-at="2020-06-29T05:52:48Z" finished-at="2020-06-29T05:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:joinassembly.LoginPageValidation@223191a6]" name="validateLogin" duration-ms="9485" started-at="2020-06-29T05:52:52Z" data-provider="getData" finished-at="2020-06-29T05:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@carrothr.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:joinassembly.LoginPageValidation@223191a6]" name="validateLogin" duration-ms="9455" started-at="2020-06-29T05:53:01Z" data-provider="getData" finished-at="2020-06-29T05:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hema+21@joinassembly.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jonsnow09!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- joinassembly.LoginPageValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
